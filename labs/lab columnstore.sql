@@ -1,6 +1,6 @@
 -- Criar banco de dados para o laboratório
 CREATE DATABASE Lab_Columnstore;
-GO
+GO 
 
 USE Lab_Columnstore;
 GO
