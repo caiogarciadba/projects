@@ -6,7 +6,7 @@ CREATE TABLE dbo.TesteColuna2 (
     ID INT IDENTITY(1,1) PRIMARY KEY,
     CPF VARCHAR(20)
 );
---caio
+
 
 
 INSERT INTO dbo.TesteColuna (CPF)
@@ -23,7 +23,7 @@ VALUES
 ('111.222.333-44');
 
 
--- Computada n„o persistida
+-- Computada n√£o persistida
 ALTER TABLE dbo.TesteColuna
 ADD CPF_LIMPO_CALC AS REPLACE(REPLACE(REPLACE(CPF, '.', ''), '-', ''), '/', '');
 
