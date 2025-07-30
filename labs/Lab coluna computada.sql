@@ -6,7 +6,7 @@ CREATE TABLE dbo.TesteColuna2 (
     ID INT IDENTITY(1,1) PRIMARY KEY,
     CPF VARCHAR(20)
 );
-
+--caio
 
 
 INSERT INTO dbo.TesteColuna (CPF)
