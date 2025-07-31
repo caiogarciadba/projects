@@ -3,7 +3,7 @@ CREATE DATABASE Lab_Columnstore;
 GO  
 
 USE Lab_Columnstore;
-GO
+GO-----
 
 
 -- Criar tabela com índice tradicional
