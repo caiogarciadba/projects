@@ -4,7 +4,7 @@ GO
 
 USE Lab_Columnstore;
 GO-----
-
+--teste fagner
 
 -- Criar tabela com índice tradicional
 CREATE TABLE Tabela_RowStore (
